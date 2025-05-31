@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿namespace AbilityScoreTester
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        AbilityScoreCalculator calculator = new AbilityScoreCalculator();
+        private static void Main(string[] args)
+        {
+
+        }
     }
 }
