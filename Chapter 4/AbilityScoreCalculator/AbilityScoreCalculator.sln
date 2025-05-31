@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36121.58 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbilityScoreCalculator", "AbilityScoreCalculator\AbilityScoreCalculator.csproj", "{F58E245D-A6D0-4FD0-9D1E-5559A2BBECA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbilityScoreTester", "AbilityScoreCalculator\AbilityScoreTester.csproj", "{F58E245D-A6D0-4FD0-9D1E-5559A2BBECA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
