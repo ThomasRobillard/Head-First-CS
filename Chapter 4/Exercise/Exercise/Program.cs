@@ -7,6 +7,7 @@ internal class Program
         Elephant lloyd = new Elephant() { Name = "Lloyd", EarSize = 40 };
         Elephant lucinda = new Elephant() { Name = "Lucinda", EarSize = 33 };
         Elephant swap;
+
         Console.WriteLine("Press 1 for Lloyd, 2 for Lucinda, 3 to swap. q to quit");
         while (true)
         {
@@ -31,6 +32,10 @@ internal class Program
                 lucinda = lloyd;
                 lloyd = swap;
                 Console.WriteLine("References have been swapped");
+            }
+            else if (keyChar == '4')
+            {
+                lucinda.SpeakTo(lloyd, "Hi, Lloyd");
             }
             else if ((keyChar == 'q') || (keyChar == 'Q'))
             {
